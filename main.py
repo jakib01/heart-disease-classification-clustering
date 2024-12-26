@@ -45,9 +45,6 @@ from sklearn.metrics import roc_auc_score
 
 # **Reading the data and finding the data information and plots**
 
-# In[ ]:
-
-
 # Get the current script's directory
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
@@ -57,7 +54,7 @@ file_path = os.path.join(current_directory, 'heart.csv.txt')
 # Load the CSV file
 heart_data = pd.read_csv(file_path)
 
-print(heart_data.head())  # Display the first few rows to verify
+# print(heart_data.head())  # Display the first few rows to verify
 
 
 # In[ ]:
